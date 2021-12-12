@@ -1,7 +1,8 @@
 
 body {
     margin: 0px;
-    background-color: whitesmoke;
+  /*  background-color: whitesmoke; */
+  background-image: url('../img/pool-g0c75505ae_1920.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;

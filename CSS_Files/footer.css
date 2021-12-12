@@ -1,5 +1,5 @@
 .footer-cont {
-    background: rgb(19,175,240);
+    background: rgba(19,175,240, 0.7);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,6 @@
 .footer-cont a {
     color: whitesmoke;
     font-size: 19px;
-  text-decoration: none; 
 }
 
 .copyright {
@@ -29,13 +28,15 @@
 }
 
 .footer-links {
+    width: 400px;
+    color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .footer-links p {
-    text-decoration: underline;
+  text-decoration: none;
 }
 
 .margin {
@@ -53,10 +54,4 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-
-.footer-links {
-    width: 400px;
-    color: white;
 }
