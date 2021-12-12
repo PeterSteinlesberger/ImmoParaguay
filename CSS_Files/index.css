@@ -1,0 +1,34 @@
+body {
+    background-image: url('../img/pool-g0c75505ae_1920.jpg');
+    margin: 0px;
+    background-color: whitesmoke;   
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Old Standard TT', serif; 
+      font-size: 18px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(6, 107, 189);
+  margin-top: -48px;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  margin-left: 380px;
+  font-size: 22px;
+}
+
+.h1 {
+  margin-right: 190px;
+}

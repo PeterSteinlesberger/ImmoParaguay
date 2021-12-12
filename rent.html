@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <title>Backlog</title>
     <link rel="stylesheet" href="CSS_Files/style.css">
-    <link rel="stylesheet" href="CSS_Files/backlog.css">
     <link rel="stylesheet" href="CSS_Files/header.css">
     <link rel="stylesheet" href="CSS_Files/footer.css">
+    <link rel="stylesheet" href="CSS_Files/rent.css">
     <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <script src="JS_Files/script.js"></script>
-
 </head>
+
 
 <body onload="includeHTML()">
     <div w3-include-html="./Templates/header.html"></div>
     <div class="main-cont">
-        
+        <div class="selection-cont">
+            <a href="#">Ascunion</a>
+            <a href="#">Villarrica/Indedepencia</a>
+            <a href="#">San Bernadino</a>
+            <a href="#">Hohenau/Obligado</a>
+            <a href="#">Encarnation</a>
+            <a href="#">Filadelfia/LaomaPlata</a>
+            <a href="#">Pireburi</a>
+            <a href="#">Nueva Colombia</a>
+        </div>
+        <div class="content-cont">
+            <div class="data-cont"></div>
+            <div class="data-cont"></div>
+            <div class="data-cont"></div>
+            <div class="data-cont"></div>
+            <div class="data-cont"></div>
+            <div class="data-cont"></div>
+        </div>
+
+
+
     </div>
     <div w3-include-html="./Templates/footer.html"></div>
 </body>
+
 </html>

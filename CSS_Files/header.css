@@ -2,7 +2,7 @@
 height: 80px;
 padding: 8px 30px;
 background: rgb(19,175,240);
-background: linear-gradient(0deg, rgba(19,175,240,0.7) 0%, rgba(254,254,254,0.7567401960784313) 100%);
+background: linear-gradient(0deg, rgba(2, 172, 245, 0.8) 0%, rgba(254,254,254,0.7567401960784313) 100%);
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -43,7 +43,7 @@ margin-top: 70px;
 width: 700px;
 display: flex;
 margin-right: 80px;
-margin-top: 66px;
+margin-top: 68px;
 }
 
 /* text-decoration nderline animation */
@@ -53,9 +53,6 @@ margin-top: 66px;
     text-decoration: none;
   }
   
-  .menu-cont a:hover {
-  /*  color: #000;  */
-  }
   
   .menu-cont a::before {
     content: "";
