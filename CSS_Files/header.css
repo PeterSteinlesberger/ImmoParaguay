@@ -1,0 +1,50 @@
+.header {
+height: 80px;
+padding: 8px 30px;
+background: rgb(19,175,240);
+background: linear-gradient(0deg, rgba(19,175,240,1) 0%, rgba(254,254,254,0.7567401960784313) 100%);
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.logo {
+	margin-left: 50px;
+    margin-top: 23px;
+	width: 50px;
+}
+
+.company-name {
+font-size: 35px;
+color: whitesmoke;
+margin-left: 16px;
+margin-top: 70px;
+}
+
+
+.left-cont {
+	width: 220px;
+	display: flex;
+	align-items: center;
+}
+
+
+.header-link {
+	text-decoration: none;
+	font-size: 24px;
+    color: whitesmoke;
+	transition: all 225ms ease-in-out;
+	margin-right: 40px;
+}
+
+.header-link:hover {
+text-decoration: underline 5px;
+}
+
+.menu-cont {
+width: 700px;
+display: flex;
+margin-right: 80px;
+margin-top: 67px;
+}

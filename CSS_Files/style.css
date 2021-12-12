@@ -1,0 +1,16 @@
+
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Old Standard TT', serif; 
+    font-size: 18px;
+}
+
+.D-none {
+    display: none;
+}
+
