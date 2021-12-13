@@ -1,65 +1,91 @@
 body {
-
+  background-image: url('../img/water-lightblue.jpg'); 
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     bottom: 0;
+object-fit: contain;
 }
 
 .main-cont {
-
     height: 100%;
     width: 100%;
     display: flex;
 }
 
 .selection-cont {
+    background-color: rgb(245, 245, 245, 0.87);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 280px;
-    margin-left: 60px;
-    height: 400px;
-    margin-top: 130px;
+    align-items: flex-start;
+    width: 500px;
+    height: 765px;
+    padding-top: 130px;
+    box-sizing: border-box;
+    padding-left: 70px;
+
+}
+
+.selection-background {
+    background-color: rgb(245, 245, 245, 0.01);
+    border: solid 1px rgb(2, 172, 245);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.selection-margin-color {
+    height: 500px;
+    width: 350px;
+    background-color: rgb(2, 172, 245, 0.60);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    border: solid 1px rgb(2, 172, 245);
+    border-radius: 4px;
+
 }
 
 .selection-cont a {
     text-decoration: none;
-    color: rgb(2, 172, 245);
-    font-size: 23px;
+   color: whitesmoke;
+    font-size: 25px;
+    margin: 8px;
+    z-index: 2;
 }
 
 
 .selection-cont a:hover {
     text-decoration: underline 2px;
-    color: rgb(2, 172, 245);
+    color: whitesmoke;
+
 }
 
 
 .content-cont {
-    /*  background: rgb(0,126,241);
-    background: linear-gradient(225deg, rgba(0,126,241, 0.8) 0%, rgba(254,254,254,0.7567401960784313) 100%); */
-    background-color: whitesmoke;
-    height: 900px;
+    background-color: rgba(250, 250, 250, 0.83);
+    height: 765px;
     width: 100%;
     padding-top: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-y: auto;
+    box-sizing: border-box;
 }
 
 .data-cont {
     position: relative;
-    background-color: whitesmoke;
+    background-color: rgb(245, 245, 245, 0.7);
     width: 900px;
     height: 180px;
     margin: 10px;
     border: solid 1px rgb(2, 172, 245);
     border-radius: 4px;
     display: flex;
-
-
+   
 }
 
 .data-main-img {
@@ -75,15 +101,25 @@ body {
     position: absolute;
     width: 892px;
     height: 45px;
-    background-color: rgba(2, 172, 245, 0.5);
+    background-color: rgba(2, 172, 245, 0.55);
     margin: 4px;
     margin-top: 131px;
     border-radius: 4px;
     box-sizing: border-box;
+    z-index: 1;
+}
+
+.headline {
+    font-size: 26px;
+    color:rgb(190, 146, 0);
+    margin-top: 12px;
+    margin-bottom: -6px;
 }
 
 .data-text-cont {
-    margin-left: 20px;
+    margin-left: 26px;
+    margin-right: 26px;
+    z-index: 1;
 }
 
 .like-icon {
@@ -91,7 +127,9 @@ body {
 }
 
 .underline-data-cont {
-    margin-bottom: -33px;
+    color: whitesmoke;
+    margin-top: 35px;
+    z-index: 1;
 }
 
 .text-line {
@@ -101,6 +139,7 @@ body {
 .top-line {
 font-size: 14px;
 margin-bottom: 3px;
+color: rgb(190, 146, 0);
 }
 
 .element-1 {
